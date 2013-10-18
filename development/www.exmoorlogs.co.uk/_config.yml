@@ -1,0 +1,11 @@
+name: Exmoor Logs
+markdown: redcarpet
+pygments: true
+
+# Exclude the following from the build
+# exclude css-src as this is the sass and not required for output
+# exclude .sass-cache as not requrired for output
+# exclude config.rb as these are the configuration settings for compass
+
+# core files/folders to exclude
+exclude: [css-src, .sass-cache, config.rb, .sublime-project, .scss, README.md, _maintenance.htm, codekit-config.json]
