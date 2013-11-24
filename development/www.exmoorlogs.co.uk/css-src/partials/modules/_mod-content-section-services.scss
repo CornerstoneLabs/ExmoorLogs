@@ -1,0 +1,24 @@
+/**
+ * @description    Styling for the .contentSection .services class
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-22 16:59
+ *
+ *
+ *     @example
+ *                 <section class="contentSection services">
+ *
+ *                 </section>
+ *
+ *        @type    layout
+ *       @notes    .services extends .contentSection
+ */
+
+
+/**
+ * @section        .services
+ */
+.services {
+    background: lighten($color-content-section, 10%);
+}

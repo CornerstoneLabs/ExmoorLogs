@@ -1,0 +1,25 @@
+/**
+ * @description    Styling for the main layout wrapper
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-19 16:34
+ *
+ *
+ *     @example
+ *                 <div class="layoutWrapper">
+ *
+ *                 </div>
+ *
+ *
+ *        @type    layout
+ *       @notes
+ */
+
+
+/**
+ * @section        layoutWrapper
+ */
+.layoutWrapper {
+    @include outer-container;
+}

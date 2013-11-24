@@ -1,0 +1,32 @@
+/**
+ * @description    Neat Grid Settings
+ *
+ *      @author    https://github.com/thoughtbot/neat#requirements
+ *     @version    0.1
+ *        @date    2013-11-19 16:31
+ *
+ *     @example
+ *
+ *        @type    settings
+ *       @notes    The breakpoint variables use colour coding. The .globalHeader class has debgging which
+ *                 can be enabled to view the matching colours in the background of the .globalHeader in
+ *                 the front end.
+ *      @ignore
+ *
+ */
+
+/**
+ * @section        settings
+ *   @notes        default size 0px - 576px
+ */
+// @import "neat/neat-helpers";
+
+// Change the grid settings
+$column:        90px;
+$gutter:        30px;
+$grid-columns:  10;
+$max-width:     em(1088);
+
+// Define your breakpoints
+// $tablet:        new-breakpoint(max-width 768px 8);
+// $mobile:        new-breakpoint(max-width 480px 4);

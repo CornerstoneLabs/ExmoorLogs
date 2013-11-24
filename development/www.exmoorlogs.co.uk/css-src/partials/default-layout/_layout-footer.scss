@@ -1,0 +1,28 @@
+/**
+ * @description    Stying for the main layout footer
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-20 16:02
+ *
+ *
+ *     @example
+ *                 <footer class="layoutFooter" role="contentinfo">
+ *
+ *                 </footer>
+ *
+ *        @type    layout
+ *       @notes
+ */
+
+
+/**
+ * @section        layoutFooter
+ */
+.layoutFooter {
+    @include span-columns(10);
+    border-bottom: 5px solid $color-border;
+    border-top: 1px solid $color-border;
+    margin-bottom: .5em;
+    padding: 1em 0;
+}

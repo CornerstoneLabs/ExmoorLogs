@@ -1,0 +1,24 @@
+/**
+ * @description    Styling for the .contentSection .delivery class
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-22 16:59
+ *
+ *
+ *     @example
+ *                 <section class="contentSection delivery">
+ *
+ *                 </section>
+ *
+ *        @type    layout
+ *       @notes    .delivery extends .contentSection
+ */
+
+
+/**
+ * @section        .delivery
+ */
+.delivery {
+    background: lighten($color-content-section, 7.5%);
+}

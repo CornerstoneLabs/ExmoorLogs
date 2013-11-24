@@ -1,0 +1,28 @@
+/**
+ * @description    Styling for the main layout content area
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-22 09:24
+ *
+ *
+ *     @example
+ *                 <div class="layoutMain">
+ *
+ *                 </div>
+ *
+ *        @type    layout
+ *       @notes
+ */
+
+
+/**
+ * @section        layoutMain
+ */
+.layoutMain {
+    padding-top: 150px;
+
+    img {
+        max-width: 100%;
+    }
+}

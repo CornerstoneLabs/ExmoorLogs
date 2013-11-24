@@ -1,0 +1,22 @@
+/**
+ * @description    styling for the copyright class
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-20 16:38
+ *
+ *
+ *     @example
+ *                 <div class="copyright"><p>&copy; 2013 Exmoor Logs. All rights reserved.</p></div>
+ *
+ *        @type    module
+ *       @notes
+ */
+
+/**
+ * @section        copyright
+ */
+.copyright {
+    // @include span-columns(3 of 10);
+    @include span-columns(5);
+}

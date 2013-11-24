@@ -1,0 +1,27 @@
+/**
+ * @description    styling for the brandLogo class
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-19 18:20
+ *
+ *
+ *     @example
+ *                 <div class="brandLogo"><a class="brandLogo" href="">Exmoor Logs</a></div>
+ *
+ *        @type    module
+ *       @notes
+ */
+
+/**
+ * @section        brandLogo
+ */
+.brandLogo {
+    @include span-columns(3 of 10);
+    @include logo-font-stack;
+
+    a {
+        @include font-size(2.6);
+        text-decoration: none;
+    }
+}

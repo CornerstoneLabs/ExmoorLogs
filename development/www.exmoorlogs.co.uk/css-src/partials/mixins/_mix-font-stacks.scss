@@ -1,0 +1,44 @@
+/**
+ * @description    font stack mixins
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-20 16:11
+ *
+ *
+ *     @example
+ *
+ *        @type    mixin
+ *       @notes
+ *      @ignore
+ */
+
+
+/**
+ *     @section   default-font-stack
+ */
+@mixin default-font-stack {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/**
+ *     @section   headline-font-stack
+ */
+@import url('http://fonts.googleapis.com/css?family=Exo:400,700');
+@mixin headline-font-stack {
+    font-family: "Exo", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/**
+ *     @section   logo-font-stack
+ */
+@mixin logo-font-stack {
+    font-family: "Exo", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/**
+ *     @section   contrast-font-stack
+ */
+@mixin contrast-font-stack {
+    font-family: Georgia, Times, "Times New Roman", serif;
+}

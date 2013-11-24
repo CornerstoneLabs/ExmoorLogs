@@ -1,0 +1,807 @@
+@charset "UTF-8";
+@import url("http://fonts.googleapis.com/css?family=Exo:400,700");
+/**
+ * @projectDescription    Exmoor Logs
+ *               @file    styles.css
+ *             @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *            @version    0.1
+ *               @date    2013-11-19 15:17
+ *              @notes    NB. This is the master Sass file which imports all the partials.
+ *                        No CSS should be written in this file.
+ */
+/* Please be aware that styles.css is a generated file and has been built using SCSS */
+/**
+ * @section        Bourbon
+ *   @notes        http://bourbon.io/
+ *                 $ gem install bourbon
+ */
+/**
+ * @section        Neat Grid
+ *   @notes        https://github.com/thoughtbot/neat#requirements
+ *                 $ gem install neat
+ */
+/**
+ * @description    Neat Grid Settings
+ *
+ *      @author    https://github.com/thoughtbot/neat#requirements
+ *     @version    0.1
+ *        @date    2013-11-19 16:31
+ *
+ *     @example
+ *
+ *        @type    settings
+ *       @notes    The breakpoint variables use colour coding. The .globalHeader class has debgging which
+ *                 can be enabled to view the matching colours in the background of the .globalHeader in
+ *                 the front end.
+ *      @ignore
+ *
+ */
+/**
+ * @section        settings
+ *   @notes        default size 0px - 576px
+ */
+/* line 2, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/neat/grid/_grid.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/**
+ * @section        Bitters
+ *   @notes        http://bitters.bourbon.io/
+ *                 $ gem install bitters
+ */
+/**
+ * @section        Settings
+ */
+/**
+ * @section        Variables
+ */
+/**
+ * @description    Colour palette
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-20 09:55
+ *
+ *
+ *     @example
+ *
+ *
+ *        @type    variables
+ *       @notes
+ *      @ignore
+ *
+ */
+/**
+* @section        Base colours
+*/
+/**
+* @section        Colours
+*/
+/**
+* @section        Colour complementary
+*/
+/**
+* @section        Colour
+*/
+/**
+ * @section        Mixins
+ */
+/**
+ * @description    font-sizing mixin
+ *
+ *      @author    http://css-tricks.com/snippets/css/less-mixin-for-rem-font-sizing/
+ *     @version    0.1
+ *        @date    2013-11-20 16:10
+ *
+ *
+ *     @example    @include font-size(1.6);
+ *
+ *
+ *        @type    mixin
+ *       @notes    returns rem and fall-back px values
+ *      @ignore
+ */
+/**
+ * @section        font-size
+ */
+/**
+ * @description    font stack mixins
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-20 16:11
+ *
+ *
+ *     @example
+ *
+ *        @type    mixin
+ *       @notes
+ *      @ignore
+ */
+/**
+ *     @section   default-font-stack
+ */
+/**
+ *     @section   headline-font-stack
+ */
+/**
+ *     @section   logo-font-stack
+ */
+/**
+ *     @section   contrast-font-stack
+ */
+/**
+ * @section        Placeholders
+ */
+/**
+ * @section        Global
+ */
+/**
+ * @section        Elements
+ */
+/**
+ * @description    Styling for the html element
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-23 09:09
+ *
+ *
+ *     @example
+ *                 <html></html>
+ *
+ *
+ *        @type    element
+ *       @notes
+ */
+/**
+ * @section        html
+ */
+/* line 21, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/partials/elements/_html.scss */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-family: sans-serif;
+  font-size: 62.5%;
+  overflow-y: scroll;
+}
+
+/**
+ * @description    Creates the default styling for the body element
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-20 17:04
+ *
+ *
+ *     @example
+ *                 <body>
+ *
+ *
+ *        @type    element
+ *       @notes
+ */
+/**
+ * @section        body
+ */
+/* line 21, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/partials/elements/_body.scss */
+body {
+  background: white;
+  color: #1a1a1a;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/**
+ * @description    Creates the default styling for links
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-20 09:53
+ *
+ *
+ *     @example
+ *                 <a href="#"></a>
+ *
+ *
+ *        @type    element
+ *       @notes    ensure pseudo classes are ordered:
+ *                      :link
+ *                      :visited
+ *                      :hover
+ *                      :focus
+ *                      :active
+ */
+/**
+ * @section        a
+ */
+/* line 26, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/partials/elements/_a.scss */
+a {
+  color: #236952;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* line 31, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/partials/elements/_a.scss */
+a:hover {
+  text-decoration: underline;
+}
+/* line 35, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/partials/elements/_a.scss */
+a:focus {
+  outline: thin dotted;
+}
+/* line 40, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/partials/elements/_a.scss */
+a:active, a:hover {
+  outline: 0;
+}
+/* line 44, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/partials/elements/_a.scss */
+a img {
+  border: none;
+}
+
+/**
+ * @description    Heading styles
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-20 16:08
+ *
+ *
+ *     @example
+ *                 <h1></h1>
+ *
+ *
+ *        @type    element
+ *       @notes
+ */
+/**
+ * @section        h1
+ */
+/**
+ * @section        h1,h2,h3,h4,h5,h6
+ */
+/* line 33, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/partials/elements/_hx.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Exo", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/**
+ * @section        h2
+ */
+/* line 40, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/partials/elements/_hx.scss */
+h2 {
+  font-size: 26px;
+  font-size: 2.6rem;
+}
+
+/**
+ * @section        h3
+ */
+/* line 47, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/partials/elements/_hx.scss */
+h3 {
+  font-size: 22px;
+  font-size: 2.2rem;
+}
+
+/**
+ * @section        h4
+ */
+/* line 54, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/partials/elements/_hx.scss */
+h4 {
+  font-size: 20px;
+  font-size: 2rem;
+}
+
+/**
+ * @section        h5
+ */
+/* line 61, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/partials/elements/_hx.scss */
+h5 {
+  font-size: 18px;
+  font-size: 1.8rem;
+}
+
+/**
+ * @section        h6
+ */
+/* line 68, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/partials/elements/_hx.scss */
+h6 {
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+
+/**
+ * @description    Creates the default styling for images
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-22 09:17
+ *
+ *
+ *     @example
+ *                 <img src="" alt="" />
+ *
+ *
+ *        @type    element
+ *       @notes    1. Removes border when inside `a` element in IE 8/9.
+ *                 2. Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+/**
+ * @section        img
+ */
+/* line 22, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/partials/elements/_img.scss */
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+/**
+ *     @section    Elements
+ * @sub-section    Table
+ */
+/**
+ *     @section    Elements
+ * @sub-section    Form
+ */
+/**
+ * @section        Layout
+ */
+/**
+ * @description    Styling for the main layout wrapper
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-19 16:34
+ *
+ *
+ *     @example
+ *                 <div class="layoutWrapper">
+ *
+ *                 </div>
+ *
+ *
+ *        @type    layout
+ *       @notes
+ */
+/**
+ * @section        layoutWrapper
+ */
+/* line 23, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/partials/default-layout/_layout-wrapper.scss */
+.layoutWrapper {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 18, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/bourbon/addons/_clearfix.scss */
+.layoutWrapper:before, .layoutWrapper:after {
+  content: " ";
+  display: table;
+}
+/* line 23, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/bourbon/addons/_clearfix.scss */
+.layoutWrapper:after {
+  clear: both;
+}
+
+/**
+ * @description    Styling for the main layout header
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-19 18:14
+ *
+ *
+ *     @example
+ *                 <header class="layoutHeader" role="banner">
+ *
+ *                 </header>
+ *
+ *        @type    layout
+ *       @notes
+ */
+/**
+ * @section        layoutHeader
+ */
+/* line 22, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/partials/default-layout/_layout-header.scss */
+.layoutHeader {
+  background: white;
+  border-bottom: 1px solid #d4d4d4;
+  display: block;
+  margin-bottom: .5em;
+  padding: 1em 0;
+  position: fixed;
+  width: 100%;
+}
+
+/**
+ * @description    Styling for the main layout content area
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-22 09:24
+ *
+ *
+ *     @example
+ *                 <div class="layoutMain">
+ *
+ *                 </div>
+ *
+ *        @type    layout
+ *       @notes
+ */
+/**
+ * @section        layoutMain
+ */
+/* line 22, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/partials/default-layout/_layout-main.scss */
+.layoutMain {
+  padding-top: 150px;
+}
+/* line 25, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/partials/default-layout/_layout-main.scss */
+.layoutMain img {
+  max-width: 100%;
+}
+
+/**
+ * @description    Stying for the main layout footer
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-20 16:02
+ *
+ *
+ *     @example
+ *                 <footer class="layoutFooter" role="contentinfo">
+ *
+ *                 </footer>
+ *
+ *        @type    layout
+ *       @notes
+ */
+/**
+ * @section        layoutFooter
+ */
+/* line 22, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/partials/default-layout/_layout-footer.scss */
+.layoutFooter {
+  display: block;
+  float: left;
+  margin-right: 2.5641%;
+  width: 100%;
+  border-bottom: 5px solid #d4d4d4;
+  border-top: 1px solid #d4d4d4;
+  margin-bottom: .5em;
+  padding: 1em 0;
+}
+/* line 33, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/neat/grid/_span-columns.scss */
+.layoutFooter:last-child {
+  margin-right: 0;
+}
+
+/**
+ * @description    Styling for the .contentSection class
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-22 16:36
+ *
+ *
+ *     @example
+ *                 <section class="contentSection">
+ *
+ *                 </section>
+ *
+ *        @type    layout
+ *       @notes
+ */
+/**
+ * @section        contentSection
+ */
+/* line 22, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/partials/default-layout/_layout-content-section.scss */
+.contentSection {
+  background: #49c29b;
+  padding: 1em 2em;
+}
+
+/**
+ * @section        Navigation
+ */
+/**
+ * @description    Styling for the primary navigation
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-19 18:27
+ *
+ *
+ *     @example
+ *                 <nav class="navPrimary">
+ *
+ *                 </nav>
+ *
+ *        @type    navigation
+ *       @notes
+ *
+ */
+/**
+ * @section        navPrimary
+ */
+/* line 22, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/partials/navigation/_nav-primary.scss */
+.navPrimary {
+  display: block;
+  float: left;
+  margin-right: 2.5641%;
+  width: 69.23077%;
+  text-align: right;
+}
+/* line 33, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/neat/grid/_span-columns.scss */
+.navPrimary:last-child {
+  margin-right: 0;
+}
+/* line 26, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/partials/navigation/_nav-primary.scss */
+.navPrimary a {
+  border-right: 1px solid #d4d4d4;
+  display: inline-block;
+  font-weight: normal;
+  margin: 1em 0;
+  padding: 0 1em;
+}
+
+/**
+ * @section        Modules
+ */
+/**
+ * @description    styling for the brandLogo class
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-19 18:20
+ *
+ *
+ *     @example
+ *                 <div class="brandLogo"><a class="brandLogo" href="">Exmoor Logs</a></div>
+ *
+ *        @type    module
+ *       @notes
+ */
+/**
+ * @section        brandLogo
+ */
+/* line 19, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/partials/modules/_mod-brand-logo.scss */
+.brandLogo {
+  display: block;
+  float: left;
+  margin-right: 2.5641%;
+  width: 28.20513%;
+  font-family: "Exo", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+/* line 33, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/neat/grid/_span-columns.scss */
+.brandLogo:last-child {
+  margin-right: 0;
+}
+/* line 23, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/partials/modules/_mod-brand-logo.scss */
+.brandLogo a {
+  font-size: 26px;
+  font-size: 2.6rem;
+  text-decoration: none;
+}
+
+/**
+ * @description    styling for the copyright class
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-20 16:38
+ *
+ *
+ *     @example
+ *                 <div class="copyright"><p>&copy; 2013 Exmoor Logs. All rights reserved.</p></div>
+ *
+ *        @type    module
+ *       @notes
+ */
+/**
+ * @section        copyright
+ */
+/* line 19, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/partials/modules/_mod-copyright.scss */
+.copyright {
+  display: block;
+  float: left;
+  margin-right: 2.5641%;
+  width: 48.71795%;
+}
+/* line 33, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/neat/grid/_span-columns.scss */
+.copyright:last-child {
+  margin-right: 0;
+}
+
+/**
+ * @description    Styling for the .contentSection .introduction class
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-22 16:59
+ *
+ *
+ *     @example
+ *                 <section class="contentSection introduction">
+ *
+ *                 </section>
+ *
+ *        @type    layout
+ *       @notes    .introduction extends .contentSection
+ */
+/**
+ * @section        .introduction
+ */
+/**
+ * @description    Styling for the .contentSection .aboutUs class
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-22 16:59
+ *
+ *
+ *     @example
+ *                 <section class="contentSection aboutUs">
+ *
+ *                 </section>
+ *
+ *        @type    layout
+ *       @notes    .aboutUs extends .contentSection
+ */
+/**
+ * @section        .aboutUs
+ */
+/* line 22, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/partials/modules/_mod-content-section-about-us.scss */
+.aboutUs {
+  background: #40bf95;
+}
+
+/**
+ * @description    Styling for the .contentSection .services class
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-22 16:59
+ *
+ *
+ *     @example
+ *                 <section class="contentSection services">
+ *
+ *                 </section>
+ *
+ *        @type    layout
+ *       @notes    .services extends .contentSection
+ */
+/**
+ * @section        .services
+ */
+/* line 22, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/partials/modules/_mod-content-section-services.scss */
+.services {
+  background: #3db58e;
+}
+
+/**
+ * @description    Styling for the .contentSection .delivery class
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-22 16:59
+ *
+ *
+ *     @example
+ *                 <section class="contentSection delivery">
+ *
+ *                 </section>
+ *
+ *        @type    layout
+ *       @notes    .delivery extends .contentSection
+ */
+/**
+ * @section        .delivery
+ */
+/* line 22, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/partials/modules/_mod-content-section-delivery.scss */
+.delivery {
+  background: #3aac86;
+}
+
+/**
+ * @description    Styling for the .contentSection .prices class
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-22 16:59
+ *
+ *
+ *     @example
+ *                 <section class="contentSection prices">
+ *
+ *                 </section>
+ *
+ *        @type    layout
+ *       @notes    .prices extends .contentSection
+ */
+/**
+ * @section        .prices
+ */
+/* line 22, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/partials/modules/_mod-content-section-prices.scss */
+.prices {
+  background: #36a27f;
+}
+
+/**
+ * @description    Styling for the .contentSection .order class
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-22 16:59
+ *
+ *
+ *     @example
+ *                 <section class="contentSection order">
+ *
+ *                 </section>
+ *
+ *        @type    layout
+ *       @notes    .order extends .contentSection
+ */
+/**
+ * @section        .order
+ */
+/* line 22, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/partials/modules/_mod-content-section-order.scss */
+.order {
+  background: #339977;
+}
+
+/**
+ * @description    Styling for the .contentSection .contact class
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-22 16:59
+ *
+ *
+ *     @example
+ *                 <section class="contentSection contact">
+ *
+ *                 </section>
+ *
+ *        @type    layout
+ *       @notes    .contact extends .contentSection
+ */
+/**
+ * @section        .contact
+ */
+/* line 22, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/partials/modules/_mod-content-section-contact.scss */
+.contact {
+  display: block;
+  float: left;
+  margin-right: 2.5641%;
+  width: 48.71795%;
+}
+/* line 33, /Users/kristina/Sites/ExmoorLogs/development/www.exmoorlogs.co.uk/css-src/neat/grid/_span-columns.scss */
+.contact:last-child {
+  margin-right: 0;
+}
+
+/**
+ * @section        Plugins
+ */
+/**
+ * @section        Helpers
+ */
+/**
+ * @section        Media
+ */
+/**
+ * @section        Development
+ */

@@ -1,0 +1,24 @@
+/**
+ * @description    Styling for the .contentSection .prices class
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-22 16:59
+ *
+ *
+ *     @example
+ *                 <section class="contentSection prices">
+ *
+ *                 </section>
+ *
+ *        @type    layout
+ *       @notes    .prices extends .contentSection
+ */
+
+
+/**
+ * @section        .prices
+ */
+.prices {
+    background: lighten($color-content-section, 5%);
+}

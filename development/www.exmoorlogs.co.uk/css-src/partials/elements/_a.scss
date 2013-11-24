@@ -1,0 +1,47 @@
+/**
+ * @description    Creates the default styling for links
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-20 09:53
+ *
+ *
+ *     @example
+ *                 <a href="#"></a>
+ *
+ *
+ *        @type    element
+ *       @notes    ensure pseudo classes are ordered:
+ *                      :link
+ *                      :visited
+ *                      :hover
+ *                      :focus
+ *                      :active
+ */
+
+
+/**
+ * @section        a
+ */
+a {
+    color: $color-link;
+    font-weight: bold;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+    &:focus {
+        outline: thin dotted;
+    }
+
+    &:active,
+    &:hover {
+        outline: 0;
+    }
+
+    img {
+        border: none;
+    }
+}

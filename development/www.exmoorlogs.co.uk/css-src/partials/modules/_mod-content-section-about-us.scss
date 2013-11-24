@@ -1,0 +1,24 @@
+/**
+ * @description    Styling for the .contentSection .aboutUs class
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-22 16:59
+ *
+ *
+ *     @example
+ *                 <section class="contentSection aboutUs">
+ *
+ *                 </section>
+ *
+ *        @type    layout
+ *       @notes    .aboutUs extends .contentSection
+ */
+
+
+/**
+ * @section        .aboutUs
+ */
+.aboutUs {
+    background: lighten($color-content-section, 12.5%);
+}

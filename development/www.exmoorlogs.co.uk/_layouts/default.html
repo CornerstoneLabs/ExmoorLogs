@@ -11,23 +11,22 @@
 		<meta name="viewport" content="width=device-width" />
 
 		<link rel="stylesheet" href="/css/styles.css" />
-		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+		<script src="js/vendor/modernizr-2.7.0.js"></script>
 	</head>
 	<body>
 
-		<div class="layoutWrapper">
-			{% include site-header.html %}
+		{% include layout-header.html %}
 
-			{% assign pages_list = site.pages %}
-			{% assign group = 'navPrimary' %}
-			{% include primary-nav.html %}
-
-			<div class="layoutMain">
-				{{ content }}
-			</div>
-
-			{% include site-footer.html %}
+		<div class="layoutMain">
+			{{ content }}
+			{% include content-about-us.html %}
+			{% include content-services.html %}
+			{% include content-delivery.html %}
+			{% include content-prices.html %}
+			{% include content-order.html %}
 		</div>
+
+		{% include layout-footer.html %}
 
 	</body>
 </html>

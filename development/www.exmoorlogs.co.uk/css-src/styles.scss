@@ -1,0 +1,233 @@
+@charset "UTF-8";
+
+/**
+ * @projectDescription    Exmoor Logs
+ *               @file    styles.css
+ *             @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *            @version    0.1
+ *               @date    2013-11-19 15:17
+ *              @notes    NB. This is the master Sass file which imports all the partials.
+ *                        No CSS should be written in this file.
+ */
+
+/*! Please be aware that styles.css is a generated file and has been built using SCSS */
+
+/**
+ * @section        Bourbon
+ *   @notes        http://bourbon.io/
+ *                 $ gem install bourbon
+ */
+@import "bourbon/bourbon";
+
+/**
+ * @section        Neat Grid
+ *   @notes        https://github.com/thoughtbot/neat#requirements
+ *                 $ gem install neat
+ */
+@import "settings/neat";
+@import "neat/neat";
+
+/**
+ * @section        Bitters
+ *   @notes        http://bitters.bourbon.io/
+ *                 $ gem install bitters
+ */
+// @import "bitters/bitters";
+
+/**
+ * @section        Settings
+ */
+// @import "partials/settings/susy";
+
+/**
+ * @section        Variables
+ */
+@import "partials/variables/colour-palette";
+
+/**
+ * @section        Mixins
+ */
+// @import "partials/mixins/mix-padding";
+@import "partials/mixins/mix-font-sizing";
+@import "partials/mixins/mix-font-stacks";
+// @import "partials/mixins/mix-rgba-bg";
+// @import "partials/mixins/mix-mq-support";
+
+/**
+ * @section        Placeholders
+ */
+// @import "partials/placeholders/visually-hidden";
+
+/**
+ * @section        Global
+ */
+// @include border-box-sizing;
+// @import "partials/global/selection";
+// @import "partials/global/normalize";
+
+/**
+ * @section        Elements
+ */
+@import "partials/elements/html";
+@import "partials/elements/body";
+@import "partials/elements/a";
+// @import "partials/elements/blockquote";
+// @import "partials/elements/em";
+// @import "partials/elements/footer";
+// @import "partials/elements/header";
+// @import "partials/elements/hr";
+@import "partials/elements/hx";
+@import "partials/elements/img";
+// @import "partials/elements/nav";
+// @import "partials/elements/strong";
+
+/**
+ *     @section    Elements
+ * @sub-section    Table
+ */
+// @import "partials/elements/table/table";
+
+/**
+ *     @section    Elements
+ * @sub-section    Form
+ */
+// @import "partials/elements/form/form";
+// @import "partials/elements/form/fieldset";
+// @import "partials/elements/form/legend";
+// @import "partials/elements/form/label";
+// @import "partials/elements/form/textarea";
+// @import "partials/elements/form/input";
+// @import "partials/elements/form/button";
+
+/**
+ * @section        Layout
+ */
+@import "partials/default-layout/layout-wrapper";
+@import "partials/default-layout/layout-header";
+// @import "partials/default-layout/layout-container";
+@import "partials/default-layout/layout-main";
+@import "partials/default-layout/layout-footer";
+
+// @import "partials/default-layout/global-header";
+
+// @import "partials/default-layout/site-menu";
+
+// @import "partials/default-layout/layout-content-wrapper";
+// @import "partials/default-layout/layout-content-main";
+@import "partials/default-layout/layout-content-section";
+// @import "partials/default-layout/layout-content-sub";
+
+
+/**
+ * @section        Navigation
+ */
+// @import "partials/navigation/nav-global";
+@import "partials/navigation/nav-primary";
+// @import "partials/navigation/nav-footer";
+
+/**
+ * @section        Modules
+ */
+@import "partials/modules/mod-brand-logo";
+@import "partials/modules/mod-copyright";
+@import "partials/modules/mod-content-section-introduction";
+@import "partials/modules/mod-content-section-about-us";
+@import "partials/modules/mod-content-section-services";
+@import "partials/modules/mod-content-section-delivery";
+@import "partials/modules/mod-content-section-prices";
+@import "partials/modules/mod-content-section-order";
+@import "partials/modules/mod-content-section-contact";
+// @import "partials/modules/mod-logo-label";
+// @import "partials/modules/mod-title-section";
+// @import "partials/modules/mod-title-nav";
+// @import "partials/modules/mod-title-list";
+// @import "partials/modules/mod-title-tag";
+// @import "partials/modules/mod-title-panel";
+// @import "partials/modules/mod-title-headline";
+// @import "partials/modules/mod-title-sub-head";
+// @import "partials/modules/mod-title-teaser";
+// @import "partials/modules/mod-sub-title-teaser";
+// @import "partials/modules/mod-title-more";
+// @import "partials/modules/mod-title-related";
+// @import "partials/modules/mod-title-discuss";
+// @import "partials/modules/mod-title-supporting-content";
+// @import "partials/modules/mod-title-comments";
+// @import "partials/modules/mod-title-stub";
+// @import "partials/modules/mod-title-other-results";
+// @import "partials/modules/mod-sub-title-stub";
+// @import "partials/modules/mod-button";
+// @import "partials/modules/mod-social";
+// @import "partials/modules/mod-form-field";
+// @import "partials/modules/mod-form-field-label";
+// @import "partials/modules/mod-form-input";
+// @import "partials/modules/mod-form-submit";
+// @import "partials/modules/mod-form-button";
+// @import "partials/modules/mod-form-field-success";
+// @import "partials/modules/mod-form-field-error";
+// @import "partials/modules/mod-form-field-error-message";
+// @import "partials/modules/mod-form-error-list";
+// @import "partials/modules/mod-form-thank-you";
+// @import "partials/modules/mod-messaging";
+// @import "partials/modules/mod-form-quick-enquiry";
+// @import "partials/modules/mod-form-newsletter";
+// @import "partials/modules/mod-form-search";
+// @import "partials/modules/mod-form-quick-search";
+// @import "partials/modules/mod-article-main";
+// @import "partials/modules/mod-search-results";
+// @import "partials/modules/mod-search-result-item";
+// @import "partials/modules/mod-search-results-other";
+// @import "partials/modules/mod-divider";
+// @import "partials/modules/mod-contact";
+// @import "partials/modules/mod-global-controls";
+// @import "partials/modules/mod-ctrl";
+// @import "partials/modules/mod-panel-animation";
+// @import "partials/modules/mod-panel";
+// @import "partials/modules/mod-USP";
+// @import "partials/modules/mod-arrow";
+// @import "partials/modules/mod-arrow-animate";
+// @import "partials/modules/mod-author-detail";
+// @import "partials/modules/mod-author-default";
+// @import "partials/modules/mod-cta";
+// @import "partials/modules/mod-caption";
+// @import "partials/modules/mod-related";
+// @import "partials/modules/mod-tag";
+// @import "partials/modules/mod-tagged";
+// @import "partials/modules/mod-stub";
+// @import "partials/modules/mod-landing";
+// @import "partials/modules/mod-teaser";
+// @import "partials/modules/mod-supporting-content";
+// @import "partials/modules/mod-interested-in";
+// @import "partials/modules/mod-next-steps";
+// @import "partials/modules/mod-side-note";
+// @import "partials/modules/mod-quote";
+// @import "partials/modules/mod-introduction";
+// @import "partials/modules/mod-container-shadow";
+// @import "partials/modules/mod-datetime-stamp";
+// @import "partials/modules/mod-comments";
+// @import "partials/modules/mod-sticky-container";
+// @import "partials/modules/mod-legal";
+
+/**
+ * @section        Plugins
+ */
+// @import "partials/plugins/plug-grunticon";
+
+/**
+ * @section        Helpers
+ */
+// @import "partials/helpers/ir";
+// @import "partials/helpers/hidden";
+// @import "partials/helpers/invisible";
+// @import "partials/helpers/clearfix";
+
+/**
+ * @section        Media
+ */
+// @import "partials/media/print";
+
+/**
+ * @section        Development
+ */
+// @import "partials/development/dev-debug";
+// @import "partials/development/dev-layout";
+// @import "partials/development/dev-style-guide";

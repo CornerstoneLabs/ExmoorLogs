@@ -1,0 +1,30 @@
+/**
+ * @description    Styling for the main layout header
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-19 18:14
+ *
+ *
+ *     @example
+ *                 <header class="layoutHeader" role="banner">
+ *
+ *                 </header>
+ *
+ *        @type    layout
+ *       @notes
+ */
+
+
+/**
+ * @section        layoutHeader
+ */
+.layoutHeader {
+    background: $color-header-bg;
+    border-bottom: 1px solid $color-border;
+    display: block;
+    margin-bottom: .5em;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+}

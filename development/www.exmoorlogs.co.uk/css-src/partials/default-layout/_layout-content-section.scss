@@ -1,0 +1,25 @@
+/**
+ * @description    Styling for the .contentSection class
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-22 16:36
+ *
+ *
+ *     @example
+ *                 <section class="contentSection">
+ *
+ *                 </section>
+ *
+ *        @type    layout
+ *       @notes
+ */
+
+
+/**
+ * @section        contentSection
+ */
+.contentSection {
+    background: lighten($color-content-section, 15%);
+    padding: 1em 2em;
+}

@@ -1,0 +1,70 @@
+/**
+ * @description    Heading styles
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-20 16:08
+ *
+ *
+ *     @example
+ *                 <h1></h1>
+ *
+ *
+ *        @type    element
+ *       @notes
+ */
+
+
+/**
+ * @section        h1
+ */
+h1 {
+
+}
+
+/**
+ * @section        h1,h2,h3,h4,h5,h6
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @include headline-font-stack;
+}
+
+/**
+ * @section        h2
+ */
+h2 {
+    @include font-size(2.6);
+}
+
+/**
+ * @section        h3
+ */
+h3 {
+    @include font-size(2.2);
+}
+
+/**
+ * @section        h4
+ */
+h4 {
+    @include font-size(2.0);
+}
+
+/**
+ * @section        h5
+ */
+h5 {
+    @include font-size(1.8);
+}
+
+/**
+ * @section        h6
+ */
+h6 {
+    @include font-size(1.4);
+}
