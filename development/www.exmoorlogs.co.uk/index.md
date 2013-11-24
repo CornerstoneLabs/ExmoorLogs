@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: ExmoorLogs
 group: "navPrimary"
 navTitle: "Home"
 ---

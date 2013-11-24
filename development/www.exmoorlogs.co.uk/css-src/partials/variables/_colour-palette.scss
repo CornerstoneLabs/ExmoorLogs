@@ -41,19 +41,12 @@ $color-copy                :    lighten($color-black, 10%); // output = #585858
 $color-link                :    darken($color-brand-green,10%);
 $color-page-bg             :    $color-white;
 $color-header-bg           :    $color-white;
-$color-panel-bg            :    darken($color-white, 2.75%); // output = #f8f8f8
-$color-layout-main         :    $color-white;
+$color-footer-bg           :    $color-brand-green;
 $color-nav-primary         :    lighten($color-black, 44.5%); // output = #717171
 $color-nav-primary-active  :    darken($color-white, 17.25%); // output = #d3d3d3
-$color-form-bg             :    darken($color-white, 4.75%); // output = #f3f3f3
-$color-form-input          :    darken($color-white, 10.5%); // output = #e4e4e4
-$color-form-field-success  :    $color-brand-green;
-$color-form-field-error    :    $color-brand-red;
 $color-content-section     :    $color-brand-green;
-
 
 $color-button              :    $color-brand-red;
 $color-border              :    lighten($color-black, 83%); // output = #d4d4d4
-$color-shadow              :    lighten($color-black, 30%); // output = #4d4d4d
 $color-mark                :    $color-brand-complementary2;
 $color-selection           :    $color-brand-complementary2;

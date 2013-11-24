@@ -17,11 +17,14 @@
  * @section        brandLogo
  */
 .brandLogo {
-    @include span-columns(3 of 10);
     @include logo-font-stack;
 
+    @include media(min-width 840px) {
+        @include span-columns(3 of 10);
+    }
+
     a {
-        @include font-size(2.6);
+        @include font-size(3.6);
         text-decoration: none;
     }
 }

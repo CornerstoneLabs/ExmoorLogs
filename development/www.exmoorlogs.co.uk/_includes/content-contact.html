@@ -1,21 +1,33 @@
-<section class="contact" id="contact">
-	<h2>Contact</h2>
+<section class="contentSection contact" id="contact">
+	<div class="layoutWrapper">
+		<h2>Contact</h2>
 
-	<p><strong>{% include mobile.html %}</strong> | Twitter: {% include twitter.html %}</p>
+		<form class="contactPanel contactForm">
+			<h3>Send us a message</h3>
+			<p><label for="name">Name:</label>
+				<input type="text" id="name" /></p>
 
-	<form>
-		<p><label for="name">Name:</label>
-			<input type="text" id="name" /></p>
+			<p><label for="email">Email:</label>
+				<input type="email" id="email" /></p>
 
-		<p><label for="email">Email:</label>
-			<input type="email" id="email" /></p>
+			<p><label for="telephone">Telephone:</label>
+				<input type="number" id="telephone" /></p>
 
-		<p><label for="telephone">Telephone:</label>
-			<input type="number" id="telephone" /></p>
+			<p><label for="message">Message:</label>
+				<textarea id="message"></textarea></p>
 
-		<p><label for="message">Message:</label>
-			<textarea id="message"></textarea></p>
+			<p><input class="button" type="submit" value="Submit" /></p>
+		</form>
 
-		<p><input class="button" type="submit" value="Submit" /></p>
-	</form>
+		<div class="contactPanel contactAlt">
+			<h3>Alternatively you can call us:</h3>
+			<p><strong>{% include mobile.html %}</strong></p>
+
+			<h3>Or send us a tweet</h3>
+			<p>Twitter: {% include twitter.html %}</p>
+
+			<h3>Perhaps you would prefer to email us:</h3>
+			<p>{% include email.html %}</p>
+		</div>
+	</div>
 </section>

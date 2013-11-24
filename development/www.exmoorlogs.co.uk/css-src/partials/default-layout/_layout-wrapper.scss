@@ -21,5 +21,14 @@
  * @section        layoutWrapper
  */
 .layoutWrapper {
-    @include outer-container;
+    padding: 2em;
+
+    @include media(min-width 840px) {
+        @include outer-container;
+    }
+
+    .contentSection &,
+    .layoutFooter & {
+        background: rgba(255, 255, 255, 0.1);
+    }
 }

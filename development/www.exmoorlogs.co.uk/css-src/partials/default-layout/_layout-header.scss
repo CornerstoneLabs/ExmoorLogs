@@ -21,10 +21,10 @@
  */
 .layoutHeader {
     background: $color-header-bg;
-    border-bottom: 1px solid $color-border;
-    display: block;
-    margin-bottom: .5em;
-    padding: 1em 0;
-    position: fixed;
-    width: 100%;
+
+    @include media(min-width 840px, 10) {
+        display: block;
+        position: fixed;
+        width: 100%;
+    }
 }

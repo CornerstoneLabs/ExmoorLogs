@@ -1,0 +1,31 @@
+/**
+ * @description    Styling for the .contactPanel class
+ *
+ *      @author    Kristina Auckland <Kristina.Auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-11-24 12:58
+ *
+ *
+ *     @example
+ *                 <section class="contentSection contact">
+ *
+ *                 </section>
+ *
+ *        @type    layout
+ *       @notes
+ */
+
+
+/**
+ * @section        .contactPanel
+ */
+.contactPanel {
+
+    @include media(min-width 840px) {
+        @include span-columns(5);
+    }
+
+    a {
+        color: $color-white;
+    }
+}

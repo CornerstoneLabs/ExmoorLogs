@@ -20,6 +20,5 @@
  * @section        .contact
  */
 .contact {
-    @include span-columns(5);
-    // background: $color-content-section;
+    background: lighten($color-content-section, 2.5%);
 }

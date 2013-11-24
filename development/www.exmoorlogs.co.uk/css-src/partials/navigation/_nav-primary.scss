@@ -20,8 +20,12 @@
  * @section        navPrimary
  */
 .navPrimary {
-    @include span-columns(7 of 10);
-    text-align: right;
+
+    @include media(min-width 840px) {
+        @include span-columns(7 of 10);
+
+        text-align: right;
+    }
 
     a {
         border-right: 1px solid $color-border;
@@ -29,5 +33,10 @@
         font-weight: normal;
         margin: 1em 0;
         padding: 0 1em;
+
+        &:last-child {
+            border: none;
+            padding-right: 0;
+        }
     }
 }

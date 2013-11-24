@@ -20,7 +20,10 @@
  * @section        layoutMain
  */
 .layoutMain {
-    padding-top: 150px;
+
+    @include media(min-width 840px, 10) {
+        padding-top: 150px;
+    }
 
     img {
         max-width: 100%;
